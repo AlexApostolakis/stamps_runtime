@@ -1,0 +1,187 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="953930194" file="/home/celene/STAMPS_4.1b/StaMPS-master/matlab/stamps.prj" location="/home/celene/STAMPS_4.1b/StaMPS-master/matlab" name="stamps" preferred-package-location="/home/celene/STAMPS_4.1b/runtime_stamps_2/for_redistribution" preferred-package-type="package.type.install" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>stamps</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.net.saved.interface />
+    <param.installpath.string>/stamps/</param.installpath.string>
+    <param.installpath.combo>option.installpath.user</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>/home/celene/STAMPS_4.1b/runtime_stamps_2/for_testing</param.intermediate>
+    <param.files.only>/home/celene/STAMPS_4.1b/runtime_stamps_2/for_redistribution_files_only</param.files.only>
+    <param.output>/home/celene/STAMPS_4.1b/runtime_stamps_2/for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.required.mcr.products>
+      <item>35000</item>
+      <item>35010</item>
+      <item>35001</item>
+    </param.required.mcr.products>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>false</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.net.saved.interface />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/stamps.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}/clap_filt.m</file>
+      <file>${PROJECT_ROOT}/clap_filt_patch.m</file>
+      <file>${PROJECT_ROOT}/dijkstra.m</file>
+      <file>${PROJECT_ROOT}/get_parm_xml.m</file>
+      <file>${PROJECT_ROOT}/getparm.m</file>
+      <file>${PROJECT_ROOT}/getpsver.m</file>
+      <file>${PROJECT_ROOT}/gradient_filt.m</file>
+      <file>${PROJECT_ROOT}/griddata_version_control.m</file>
+      <file>${PROJECT_ROOT}/llh2local.m</file>
+      <file>${PROJECT_ROOT}/load_isce.m</file>
+      <file>${PROJECT_ROOT}/logit.m</file>
+      <file>${PROJECT_ROOT}/ps_calc_ifg_std.m</file>
+      <file>${PROJECT_ROOT}/ps_calc_scla.m</file>
+      <file>${PROJECT_ROOT}/ps_correct_phase.m</file>
+      <file>${PROJECT_ROOT}/ps_deramp.m</file>
+      <file>${PROJECT_ROOT}/ps_est_gamma_quick.m</file>
+      <file>${PROJECT_ROOT}/ps_fit_vario.m</file>
+      <file>${PROJECT_ROOT}/ps_kriging.m</file>
+      <file>${PROJECT_ROOT}/ps_load_initial.m</file>
+      <file>${PROJECT_ROOT}/ps_load_initial_gamma.m</file>
+      <file>${PROJECT_ROOT}/ps_load_initial_gsar.m</file>
+      <file>${PROJECT_ROOT}/ps_load_initial_isce.m</file>
+      <file>${PROJECT_ROOT}/ps_merge_patches.m</file>
+      <file>${PROJECT_ROOT}/ps_parms_default.m</file>
+      <file>${PROJECT_ROOT}/ps_plot_tca.m</file>
+      <file>${PROJECT_ROOT}/ps_scn_filt.m</file>
+      <file>${PROJECT_ROOT}/ps_scn_filt_krig.m</file>
+      <file>${PROJECT_ROOT}/ps_select.m</file>
+      <file>${PROJECT_ROOT}/ps_setref.m</file>
+      <file>${PROJECT_ROOT}/ps_smooth_scla.m</file>
+      <file>${PROJECT_ROOT}/ps_topofit.m</file>
+      <file>${PROJECT_ROOT}/ps_unwrap.m</file>
+      <file>${PROJECT_ROOT}/ps_variogram.m</file>
+      <file>${PROJECT_ROOT}/ps_weed.m</file>
+      <file>${PROJECT_ROOT}/readparm.m</file>
+      <file>${PROJECT_ROOT}/sb_identify_good_pixels.m</file>
+      <file>${PROJECT_ROOT}/sb_invert_aps.m</file>
+      <file>${PROJECT_ROOT}/sb_invert_uw.m</file>
+      <file>${PROJECT_ROOT}/sb_load_initial.m</file>
+      <file>${PROJECT_ROOT}/sb_load_initial_gamma.m</file>
+      <file>${PROJECT_ROOT}/sb_load_initial_isce.m</file>
+      <file>${PROJECT_ROOT}/sb_make_closure_loops.m</file>
+      <file>${PROJECT_ROOT}/setparm.m</file>
+      <file>${PROJECT_ROOT}/setpsver.m</file>
+      <file>${PROJECT_ROOT}/stamps_save.m</file>
+      <file>${PROJECT_ROOT}/uw_3d.m</file>
+      <file>${PROJECT_ROOT}/uw_grid_wrapped.m</file>
+      <file>${PROJECT_ROOT}/uw_interp.m</file>
+      <file>${PROJECT_ROOT}/uw_nosnaphu.m</file>
+      <file>${PROJECT_ROOT}/uw_sb_smooth_unwrap.m</file>
+      <file>${PROJECT_ROOT}/uw_sb_unwrap_space_time.m</file>
+      <file>${PROJECT_ROOT}/uw_stat_costs.m</file>
+      <file>${PROJECT_ROOT}/uw_triangulate.m</file>
+      <file>${PROJECT_ROOT}/uw_unwrap_from_grid.m</file>
+      <file>${PROJECT_ROOT}/uw_unwrap_space.m</file>
+      <file>${PROJECT_ROOT}/uw_unwrap_time.m</file>
+      <file>${PROJECT_ROOT}/wrap_filt.m</file>
+      <file>${PROJECT_ROOT}/writecpx.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="/home/celene/STAMPS_4.1b/runtime_stamps_2/for_testing" name="run_stamps.sh" optional="false">/home/celene/STAMPS_4.1b/runtime_stamps_2/for_testing/run_stamps.sh</file>
+      <file location="/home/celene/STAMPS_4.1b/runtime_stamps_2/for_testing" name="readme.txt" optional="true">/home/celene/STAMPS_4.1b/runtime_stamps_2/for_testing/readme.txt</file>
+      <file location="/home/celene/STAMPS_4.1b/runtime_stamps_2/for_testing" name="stamps" optional="false">/home/celene/STAMPS_4.1b/runtime_stamps_2/for_testing/stamps</file>
+      <file location="/home/celene/STAMPS_4.1b/runtime_stamps_2/for_testing" name="splash.png" optional="false">/home/celene/STAMPS_4.1b/runtime_stamps_2/for_testing/splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/usr/local/MATLAB/MATLAB_Production_Server/R2015a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>4.4.126-48-default</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
